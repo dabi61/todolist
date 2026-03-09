@@ -1,0 +1,7 @@
+#include "../../Flutter/Flutter-Debug.xcconfig"
+#include "Warnings.xcconfig"
+
+// Disable code signing to avoid resource fork/FinderInfo failures in local macOS debug builds.
+CODE_SIGNING_REQUIRED = NO;
+CODE_SIGNING_ALLOWED = NO;
+CODE_SIGN_IDENTITY = "-";
